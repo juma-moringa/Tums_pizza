@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tums pizza</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- our navbar -->
+        <div class="jumbotron">
+            <div id="navbar">
+                <img src="" alt="">
+                <p>pizza inn</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Home</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>About</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Menu</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p href="#order">Order</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Contact Us</p>
+            </div>
+            <!-- end of nav bar -->
+        </div>
+        <div class="banner">
+            <h1><b>Best pizza,best value</b></h1>
+            <h1><b>Give your taste buds a treat.</b></h1>
+            <h1><b>The best pizza comes from Ajays pizza.</b></h1>
+        </div><br><br>
+        <div class="prices ">
+            <p class="about">
+                People disappoint, but pizza never does.<br>
+                Attention Crust Lovers:<br>Join Ajays pizza Rewards and earn a point for every a thousand
+                bob you spend. <br>
+                That
+                way when you sink your incisors into the NEW Epic Stuffed Crust,<br> you'll be biting into better
+                rewards.
+            </p><br><br>
+            <h2>OUR PIZZA MENU</h2>
+        </div>
+        <!-- odering section -->
+        <section id="order" class="py-5 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4  mx-auto py-2">
+                        <form id="myForm">
+                            <div class="checkout-form">
+                                <label for="sel1">Select type :</label>
+                                <select class="form-control" id="type">
+                                    <option>Neapolitan pizza</option>
+                                    <option>Deep dish</option>
+                                    <option>New York style</option>
+                                    <option>veggie pizza
+                                    <option>detroit pizza</option>
+                                </select>
+
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sel1">Select size :</label>
+                                <select class="form-control" id="size">
+                                    <!-- <option value="1">Jumbo - 1700</option> -->
+                                    <option value="1">Large - 1500</option>
+                                    <option value="2"> Medium - 900</option>
+                                    <option value="3">Small - 600</option>
+                                </select>
+
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sel1">Select Crust :</label>
+                                <select class="form-control" id="crust">
+                                    <option>crispy</option>
+                                    <option>stuffed</option>
+                                    <option>glutten free</option>
+                                    <option>thin</option>
+                                </select>
+
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sel1">Select toppings :</label>
+                                <select class="form-control" id="top">
+                                    <option>pepperoni</option>
+                                    <option>chicken bbq</option>
+                                    <option>bacon</option>
+                                    <option>spicy sauce</option>
+                                </select>
+
+                            </div>
+                            <div class="checkout-form" reqiured>
+                                <label for="sel1">Quantity :</label>
+                                <input type="number" id="qty" class="form-control" min="1" required>
+                                </input>
+
+                            </div>
+                            <div class="checkout-form" required= "">
+                                <label for="sel1">Delivery option:</label>
+                                <select class="form-control" id="pick">
+                                    <option value="1">personal pick up</option>
+                                    <option value="2">Delivery</option>
+                                </select>
+
+                            </div>
+
+                            <div class="checkout-form">
+                                <button type="submit" class="btn btn-primary">checkout</button>
+
+
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/bootstrap.bundle.js"></script>
+        <script src="./js/scripts.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
